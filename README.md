@@ -12,7 +12,7 @@ Install the dependencies:
 `pip install -r requirements.txt`
 
 Run the API with Uvicorn:  
-`uvicorn src.main:app --reload`
+`uvicorn main:app --reload`
 
 Hit the unprotected endpoint with cURL:  
 `curl localhost:8000/unprotected`
